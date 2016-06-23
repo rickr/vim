@@ -16,6 +16,9 @@ call vundle#begin()
   Plugin 'tpope/vim-surround'
   Plugin 'kchmck/vim-coffee-script'
   Plugin 'elixir-lang/vim-elixir'
+  Plugin 'tpope/vim-repeat.git'
+  Plugin 'terryma/vim-expand-region'
+  Plugin 'othree/xml.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -59,3 +62,17 @@ au FileType * setlocal formatoptions-=o
 set nobackup
 set nowritebackup
 set noswapfile
+
+" Always show (crazy ass) statusline
+set laststatus=2
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+
+" Leader shortcuts
+let mapleader = "\<Space>"
+nnoremap <Leader>m :! make<CR>
+noremap <Leader>w :update<CR>
+set pastetoggle=<leader>p
+
+" Plugin 'terryma/vim-expand-region'
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)

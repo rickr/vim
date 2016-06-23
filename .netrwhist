@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/dude/git/ember_reasons/app/views/layouts'
-let g:netrw_dirhist_2='/home/dude/git/ember_reasons/config'
-let g:netrw_dirhist_3='/home/dude/git/ember_reasons/app/views/home'
-let g:netrw_dirhist_4='/home/dude/git/ember_reasons/app/controllers'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/rrein/code/mcdn-portal/lib/tapioca/policy'
+let g:netrw_dirhist_2='/Users/rrein/code/mcdn-portal/lib/tapioca/policy/rule'
+let g:netrw_dirhist_3='/Users/rrein/code/mcdn-portal/lib/tapioca/policy'
+let g:netrw_dirhist_4='/Users/rrein/code/mcdn-portal/lib/tapioca'
+let g:netrw_dirhist_5='/Users/rrein/code/mcdn-portal/lib/sso/session'
+let g:netrw_dirhist_6='/Users/rrein/code/mcdn-portal/test/test_helpers'
+let g:netrw_dirhist_7='/Users/rrein/code/operationcode/app/controllers/veterans'
+let g:netrw_dirhist_8='/Users/rrein/code/mcdn-portal-metadata/pearl.data'
