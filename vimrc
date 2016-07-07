@@ -19,6 +19,7 @@ call vundle#begin()
   Plugin 'tpope/vim-repeat.git'
   Plugin 'terryma/vim-expand-region'
   Plugin 'othree/xml.vim'
+  Plugin 'scrooloose/nerdtree.git'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -68,7 +69,7 @@ set laststatus=2
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 " Leader shortcuts
-let mapleader = "\<Space>"
+let mapleader = "g"
 nnoremap <Leader>m :! make<CR>
 noremap <Leader>w :update<CR>
 set pastetoggle=<leader>p
@@ -76,3 +77,6 @@ set pastetoggle=<leader>p
 " Plugin 'terryma/vim-expand-region'
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
