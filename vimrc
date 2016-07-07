@@ -18,7 +18,7 @@ call vundle#begin()
   Plugin 'elixir-lang/vim-elixir'
   Plugin 'tpope/vim-repeat.git'
   Plugin 'terryma/vim-expand-region'
-  Plugin 'othree/xml.vim'
+  "Plugin 'othree/xml.vim'
   Plugin 'scrooloose/nerdtree.git'
 call vundle#end()            " required
 filetype plugin indent on    " required
